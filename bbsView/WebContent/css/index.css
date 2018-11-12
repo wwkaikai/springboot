@@ -1,0 +1,124 @@
+
+body{
+	margin: 0px;
+	background-color: #dceffe;
+}
+
+.clear{
+	clear: both;
+}
+.container{
+	margin: auto;
+	width: 982px;
+}
+.ad{
+	height : 180px;
+	background-image: url("../img/top.jpg");
+}
+.title_top{
+	padding: 10px;
+	border: border: 1px solid #e4e6eb;
+	background-image: url("../img/form_bg.jpg");
+}
+.title_top h1{
+	display: inline-block;
+	font-weight: 400;
+	margin:0px;
+	padding : 5px;
+	font-size: 20px;
+	border-bottom: 3px solid #F00;
+}
+.msglist {
+	border: 1px solid #e4e6eb;
+	border-bottom: none;
+}
+.msglist .msgitem{
+	background-color: #FFF;
+	border-bottom: 1px solid #e4e6eb;
+}
+.msglist .msgitem:hover{
+	background-color: #f7f9fc;
+}
+.msglist .msgitem .col{
+	float: left;
+}
+.msglist .msgitem .col-1{
+	width: 100px;
+}
+.msglist .msgitem .col-1 span{
+	font-size: 14px;
+	line-height : 25px;
+	text-align : center;
+	margin: 10px 20px;
+	display : inline-block;
+	width : 50px;
+	height : 30px;
+	background-image:url("../img/reply_bg.png");
+}
+
+.msglist .msgitem .col-2{
+	width: 400px;
+}
+.msglist .msgitem .col-2 .title a{
+	display: inline-block;
+	margin-top: 10px;
+	color: #2d64b3;
+	text-decoration: none;
+}
+.msglist .msgitem .col-2 .title a:hover{
+	text-decoration: underline;
+}
+.msglist .msgitem .col-2 .context{
+	color : #666;	
+	font-size : 14px;
+	margin: 15px 0px;
+}
+
+.msglist .msgitem .col-3{
+	width: 100px;
+	color: #666;
+	font-size: 14px; 
+}
+.msglist .msgitem .col-3 img{
+	position : relative;
+	top:5px;
+	margin-top: 10px;
+}
+
+.msglist .msgitem .col-4{
+	width: 100px;
+	color: #666;
+	font-size: 14px;
+	margin-top: 14px;
+}
+
+.addform {
+	background-image: url("../img/form_bg.jpg");
+}
+.addform input[type="text"]{
+	width: 600px;
+	height: 30px;
+	margin: 20px 20px 0px 20px;
+}
+
+.addform input[type="submit"]{
+	width: 60px;
+	height: 30px;
+	margin: 20px;
+	color: #fff;
+    background: #3e89fa;
+    border-bottom-color: #2b71d9;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+.addform input[type="submit"]:hover{
+	background: #2a7dfa;
+    border-bottom-color: #2663bf;
+}
+
+.addform textarea{
+	width: 600px;
+	margin: 20px 20px 0px 20px;
+}
